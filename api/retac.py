@@ -18,7 +18,7 @@ def parse_keyboard_events(file):
                     elif event == "['�']":
                         text += '�'
                     elif event == "Key.enter":
-                        text += '\n'
+                        text += ''
                 if current_window:
                     text += f"\n[JANELA] {current_window}\n"
 
